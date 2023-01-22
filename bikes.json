@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "VTT Femme",
+        "price": 260,
+        "category": "Femme",
+        "image": "images/VTT-Femme.jpg",
+        "description": "Tenaya Trapèze cyan",
+        "availability": true
+    },
+    {
+        "id": 2,
+        "name": "VTT Homme",
+        "price": 240,
+        "category": "Homme",
+        "image": "images/VTT-Homme.jpg",
+        "description": "Rockville 20 Lite rouge et blanc",
+        "availability": true
+    },
+    {
+        "id": 3,
+        "name": "VTT Enfant",
+        "price": 180,
+        "category": "Enfant",
+        "image": "images/VTT-Enfant.jpg",
+        "description": "AllTrail 4 20\" rouge ",
+        "availability": false
+    },
+    {
+        "id": 4,
+        "name": "VTC Homme",
+        "price": 360,
+        "category": "Homme",
+        "image": "images/VTC-Homme.jpg",
+        "description": "Cargo Detroit noir",
+        "availability": true
+    },
+    {
+        "id": 5,
+        "name": "VTC Femme",
+        "price": 400,
+        "category": "Femme",
+        "image": "images/VTC-Femme.jpg",
+        "description": "Bergen Trapèze blanc",
+        "availability": true
+    }
+]

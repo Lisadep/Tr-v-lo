@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script type="module" src="bikes.js"></script>
+    <title>Trévélo</title>
+</head>
+
+<body class="page1">
+
+    <header>
+        <nav class="navbar navbar-pg1">
+            <img class="logo-pg1" src="images/logo.png" alt="Logo Trévélo">
+            <div class="nav-links nav-links-pg1">
+                <ul class="ul-pg1">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="active"><a href="products.html">Nos produits</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <img class="logo2" src="images/logo.png" alt="Logo Trévélo">
+            <img class="menu" src="images/menu-squared.png" alt="Menu">
+        </nav>
+    </header>
+
+    <main>
+        <!-- Menu de recherche -->
+        <section class="filtres">
+            <h3>Filtres</h3>
+            <br><br>
+            <button class="btn-trier"><span class="span-btn">Trier par</span> prix croissants</button>
+            <br><br>
+            <button class="btn-decroissant"><span class="span-btn">Trier par</span> prix décroissants</button>
+            <br><br>
+            <button class="btn-filtrer"><span class="span-btn">Voir nos</span> vélos à petits prix</button>
+            <br><br>
+            <p>Prix (entre 180 et 400 €):</p>
+            <input type="range" name="price-max" id="price-max" min="180" max="400" step="30">
+        </section>
+
+        <!-- fiches produits -->
+        <section class="cards">
+        </section>
+    </main>
+
+    <footer class="footer-pg1">
+
+        <p class="copyright">copyright &copy;2023 Trévélo </p>
+        <div class="icones-footer">
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                <img src="images/twitter.png" alt="Logo Twitter">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+
+    </footer>
+</body>
+
+<script src="app.js"></script>
+
+</html>
